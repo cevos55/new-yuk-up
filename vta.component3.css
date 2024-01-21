@@ -1,0 +1,239 @@
+.Manuelle {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.Auto {
+  margin-right: 15px;
+}
+.Gratuit,
+.Manuelle,
+.Auto {
+  color: white;
+  background: darkred;
+  width: 80px;
+  font-size: 12px;
+  height: 30px;
+  display: flex;
+  font-weight: bold;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.containerAffiliation {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  padding-top: 15%;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff7f7;
+}
+.containerInfoAf {
+  width: 75%;
+  margin-top: 2%;
+  display: flex;
+  justify-content: space-between;
+}
+.labelAf {
+  margin-top: 3%;
+  font-size: 35px;
+  font-weight: 900;
+  color: darkred;
+}
+.descripAf {
+  width: 65%;
+  text-align: center;
+  font-weight: 900;
+  margin-top: 5%;
+  font-size: 60px;
+}
+.btnAf {
+  background: darkred;
+  width: 115px;
+  height: 30px;
+  color: #ffffffd9;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 13px;
+  align-items: center;
+  border-radius: 15px;
+  margin-top: 3%;
+}
+.itemAf {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.icoAf {
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+}
+.titreItemAf {
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.descriIcoAf {
+  width: 255px;
+  text-align: center;
+  font-size: 20px;
+  color: rgb(0 0 0 / 80%);
+  /* font-weight: bold; */
+  margin-top: 5px;
+}
+.containerFeature {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #fff7f7;
+  padding-top: 15%;
+}
+
+.containerItemFeature {
+  /* width: 190px; */
+  height: 80%;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.containerPhoto {
+  position: relative;
+  /* margin-bottom: 55px; */
+  background: none;
+}
+.photoAvis {
+  width: 75px;
+  height: 75px;
+  overflow: hidden;
+  /* background: #607d8b; */
+  border-radius: 85px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.imgAvis {
+  width: 55px;
+  height: 55px;
+
+  border-radius: 85px;
+}
+.avis {
+  font-size: 45px;
+  font-weight: bolder;
+  color: darkred;
+  margin-top: 3%;
+}
+
+.labelAvis {
+  width: 60%;
+  margin-top: 50px;
+  font-size: 17px;
+  text-align: center;
+}
+.nomAvis {
+  width: 100%;
+  text-align: center;
+  font-size: 15px;
+  display: none;
+  margin-top: 7px;
+  font-weight: bold;
+  color: darkred;
+}
+.containerTextAvis {
+  height: 55%;
+  /* display: flex; */
+  flex-direction: column;
+  justify-content: space-between;
+}
+.nomAvisx {
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+  margin-top: 7px;
+  font-weight: bold;
+  color: darkred;
+}
+.textAvis {
+  /* width: 500px; */
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 40px;
+  font-size: 20px;
+  letter-spacing: 0.7px;
+  color: #000000;
+  /* height: 520px; */
+  border-radius: 929px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.prev,
+.next {
+  position: relative;
+  top: 35%;
+}
+
+.prev {
+  left: 45%;
+}
+
+.next {
+  right: 45%;
+}
+
+.screen {
+  display: none;
+}
+
+@media (max-width: 1250px) {
+  .titre {
+    font-size: 70px;
+  }
+  .welcome {
+    margin-top: 13%;
+  }
+  .descripVTA[_ngcontent-ng-c1154522606] {
+    width: 45%;
+
+    font-size: 15px;
+  }
+  .containerFormationRealise {
+    margin-left: 3%;
+  }
+  .containerPersonneForme,
+  .containerSuvit {
+    margin-left: 3%;
+  }
+  .containerImgHomeSlide {
+    height: 80%;
+  }
+}
+
+@media (max-width: 1050px) {
+  .containerImgHomeSlide,
+  .containerFOrmation,
+  .containerCopiTrade,
+  .containerAffiliation,
+  .containerFeature,
+  .radius,
+  .bakgeneral {
+    display: none;
+  }
+
+  .screen {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    font-weight: bold;
+  }
+}
